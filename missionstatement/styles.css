@@ -1,0 +1,57 @@
+body {
+    justify-content: center;
+    align-items:center;
+    max-width:600px;
+    margin: 0 auto;
+}
+
+.interior {
+    
+    margin-top: 30px;
+    border: 1px solid black;
+    padding:50px;
+    max-width:600px;
+    padding-top:20px;
+    text-align:center;
+    line-height:1.5;
+}
+
+header {
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+h1 {
+    font-size: 35px
+}
+ol {
+    text-align: left;
+}
+
+#italicheader {
+    text-align: left;
+    font-style: italic;
+}
+main {
+    text-align:left;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+#blues {
+    
+    border-bottom: 1px solid black;
+}
+h2 {
+    margin-bottom: 0;
+    color:#006EB6;
+    font-size:15px
+}
+ol li {
+    margin-bottom:15px;
+}
+
+
+
+img {
+    width:150px;
+}
