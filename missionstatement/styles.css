@@ -55,3 +55,33 @@ ol li {
 img {
     width:150px;
 }
+
+.dark h2 {
+    color:#59bdff;
+}
+
+.dark h1 {
+    color:white;
+}
+
+.dark p {
+    color:white;
+
+}
+
+.dark li {
+    color:white;
+}
+
+.dark {
+    background-color: black;
+}
+
+.interior {
+    border: 1px solid white;
+}
+
+.dark #blues {
+    border-bottom: 1px solid white;
+
+}
