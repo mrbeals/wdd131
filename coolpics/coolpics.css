@@ -1,0 +1,116 @@
+ @import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+ :root {
+ --primary-color: #52489c;
+ --secondary-color: #59c3c3;
+ --accent-color: #f45b69;
+ --text-dark: #333;
+ --text-light: #ebebeb;
+ --primary-font: Arial, Helvetica,sans-serif;
+ --secondary-font: Mooli, san-serif;
+ }
+body {
+    margin:0 auto;
+    text-align:center;
+
+}
+
+header {
+    background-color: var(--primary-color);
+    justify-content:center;
+    text-align: center;
+    text-align:center;
+    margin: 0 auto;
+}
+nav {
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    max-width:80%;
+}
+a {
+    color:var(--text-dark);
+
+    font-style:var(--secondary-font);
+    font-size:25px;
+}
+a:link,
+a:visited {
+    color:var(--text-light)
+}
+h1 {
+    font-size: 100px;
+    width:75%;
+    margin-top:0;
+    font-style:var(--primary-font);
+    color:var(--text-light);
+    justify-self: center;
+
+}
+.mybutton {
+    color:var(--text-dark);
+    background-color: var(--primary-color);
+    border:none;
+    font-size:25px;
+}
+
+.imgs {
+    border:white, 10px, solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    height:250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+footer {
+    justify-content: left;
+    background-color: var(--primary-color);
+    align-items: left;
+    text-align: left;
+    color:var(--text-light);
+}
+footer p {
+        margin-left:20%;
+        margin-bottom:0;
+}
+
+@media screen and (min-width: 700px) {
+  .gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  nav{
+    display:none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mybutton {
+    display:none;
+  }
+  nav {
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: space-between;
+    margin-top:0;
+    margin-left: 10%;
+}
+    header{
+
+        text-align:center;
+       
+        justify-content:center;
+        justify-items: space-between;
+
+    }
+    h1 {
+        margin-bottom:0;
+        padding-top:20px
+    }
+}
