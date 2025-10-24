@@ -94,3 +94,7 @@ main {
 .skiptocontent a:focus {
 	top:0
 }
+
+.skiptocontent div:focus {
+    top:0;
+}
