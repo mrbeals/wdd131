@@ -80,6 +80,9 @@ main {
     grid-row:2/3;
 }
 
+.skiptocontent div {
+    top:-100px;
+}
 .skiptocontent a {
     position: absolute;
 	
