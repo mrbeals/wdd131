@@ -79,3 +79,15 @@ main {
 .book2 {
     grid-row:2/3;
 }
+
+.skiptocontent a {
+    position: absolute;
+	
+    top: -40px;
+    justify-items:left;
+    background-color: var(--dark-color);
+    color:var(--gold-color);
+}
+.skiptocontent a:focus {
+	top:0
+}
