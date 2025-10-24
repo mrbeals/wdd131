@@ -58,6 +58,8 @@ main {
 .middle {
     grid-column:2/3;
     justify-items: center;
+    padding-left:20px;
+    padding-right:20px;
 }
 .right {
     grid-column:3/4;
