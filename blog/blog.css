@@ -83,7 +83,7 @@ main {
 .skiptocontent a {
     position: absolute;
 	
-    top: -40px;
+    top: -1000px;
     justify-items:left;
     background-color: var(--dark-color);
     color:var(--gold-color);
