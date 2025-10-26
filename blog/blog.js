@@ -74,12 +74,7 @@ function createArticle(article) {
 	const style = document.createElement('style');
 	document.head.appendChild(style);
 
-	style.sheet.insertRule(`
-		.book${article.id} {
-			grid-row: ${min}/${max};
-			height:700px;
-		}
-		`);
+
 	
 	
 	
