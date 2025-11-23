@@ -37,7 +37,11 @@ header {
     justify-content: center;
 
 }
-
+.tagdiv {
+    display: flex;
+    flex-direction: horizontal;
+    
+}
 #titlelogo  {
     width: 75px;
 }
@@ -80,7 +84,7 @@ main {
     width:100%
     }
 
-.food1 {
+.food {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -205,7 +209,7 @@ h2 {
         justify-content: center;
         width:100%
     }
-    .food1 {
+    .food {
         display:flex;
         flex-direction: row;
         width:95%;
@@ -230,8 +234,12 @@ h2 {
         padding:5px;
         width:fit-content;
         font-size:20px;
-    }
 
+    }
+    .tagdiv {
+        display: flex;
+        flex-direction: horizontal;
+    }
     .display {
         width:600px;
     }
